@@ -7,7 +7,9 @@ body {
   background-image: radial-gradient(#374566, #010203);*/
   background: url(../images/bgimage.jpeg) no-repeat center -20px;
 }
-
+#sky{
+	margin-top:-3%;
+}
 .container{background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(0%, #374566), color-stop(100%, #010203));
   background-image: -webkit-radial-gradient(#374566, #010203);
   background-image: -moz-radial-gradient(#374566, #010203);
@@ -19,14 +21,30 @@ body {
                 text-transform: uppercase;
             }
             .container {
+                width: 1000px;
+                height: 350px;
+				margin-right: 150px;
+                margin-left: 150px;
+                position: relative;
+            }
+			/* Smartphones (portrait and landscape) ----------- */
+            @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+              .container {
                 width: 960px;
-                height: 420px;
+                height: 350px;
                 /*padding: 10px;
                 margin: 0 auto;*/
 				margin-right: 30px;
                 margin-left: 30px;
                 position: relative;
             }
+			canvas#myCanvas
+              {
+                margin-left: -1%;
+	          }
+        }
+
+			
             .balloon {
                 width: 738px;
                 margin: 0 auto;

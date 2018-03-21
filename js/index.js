@@ -1,4 +1,4 @@
-var myName = "Happy Birthday Pallavi";
+var myName = "Happy Birthday NIKKI";
 
 var red = [0, 100, 63];
 var orange = [40, 100, 60];

@@ -1,6 +1,4 @@
-body {
-font-family:'Wendy One', sans-serif;
-}
+
 body {
   /*background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(0%, #374566), color-stop(100%, #010203));
   background-image: -webkit-radial-gradient(#374566, #010203);
@@ -9,14 +7,24 @@ body {
   background-image: radial-gradient(#374566, #010203);*/
   background: url(../images/bgimage.jpeg) no-repeat center -20px;
 }
+
+.container{background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(0%, #374566), color-stop(100%, #010203));
+  background-image: -webkit-radial-gradient(#374566, #010203);
+  background-image: -moz-radial-gradient(#374566, #010203);
+  background-image: -o-radial-gradient(#374566, #010203);
+  background-image: radial-gradient(#374566, #010203);
+  }
+  
             span {
                 text-transform: uppercase;
             }
             .container {
-                width: 1000px;
+                width: 960px;
                 height: 420px;
-                padding: 10px;
-                margin: 0 auto;
+                /*padding: 10px;
+                margin: 0 auto;*/
+				margin-right: 30px;
+                margin-left: 30px;
                 position: relative;
             }
             .balloon {

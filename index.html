@@ -5,7 +5,7 @@
   
   <meta charset="UTF-8">
   <title>bubble letters</title>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script type="text/javascript" src="js/alphabet.js"></script>
   <link rel="stylesheet" type="text/css" href="css/letters.css">
   <link rel="stylesheet" href="css/style.css">
@@ -13,7 +13,10 @@
   
   </head>
   <body>
-    <div class="container">
+  
+      
+      
+	  <div class="container">
 	
 	          <div class="balloon">
 			
@@ -31,12 +34,25 @@
                 </div>
 				
               </div>
-			  
+			
+
+            <canvas id="sky" width="1000" height="310"></canvas>
 	        <canvas id="myCanvas"></canvas>
+			
             <script type="text/javascript" src="js/bubbles.js"></script>
 	        <script  src="js/index.js"></script>
+			
           
         </div>
+  
+    <script type="text/javascript" src="js/celebrate.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            var anim = animate('#sky');
+            setTimeout(function() { anim.stop(); }, 60000);
+        });
+    </script>
+    
     
    </body>
 

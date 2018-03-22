@@ -28,15 +28,7 @@ body {
             }
 			/* Smartphones (portrait and landscape) ----------- */
             @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-              .container {
-                width: 960px;
-                height: 350px;
-                /*padding: 10px;
-                margin: 0 auto;*/
-				margin-right: 30px;
-                margin-left: 30px;
-                position: relative;
-            }
+              
 			canvas#myCanvas
               {
                 margin-left: -1%;

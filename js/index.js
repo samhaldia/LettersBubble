@@ -1,5 +1,6 @@
 var myName = "Happy Diwali";
 
+
 var red = [0, 100, 63];
 var orange = [40, 100, 60];
 var green = [75, 100, 40];

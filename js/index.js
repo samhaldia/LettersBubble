@@ -1,4 +1,4 @@
-var myName = "Happy Diwali";
+var myName = "Happy New Year 2022";
 
 
 var red = [0, 100, 63];
